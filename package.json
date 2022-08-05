@@ -1,5 +1,5 @@
 {
-  "name": "vscode-debug",
+  "name": "chrome-devtools-debug",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
@@ -8,7 +8,8 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "parcel-bundler": "^1.6.1"
+    "parcel-bundler": "^1.6.1",
+    "src": "^1.1.2"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
@@ -17,5 +18,6 @@
   "resolutions": {
     "@babel/preset-env": "7.13.8"
   },
-  "keywords": []
+  "keywords": [],
+  "packageManager": "yarn@3.2.2"
 }
